@@ -1,0 +1,115 @@
+
+body {
+  margin: 0 auto;
+  width: 100% !important;
+  font-family: times;
+  overflow-x: hidden;
+}
+
+header {
+  /* padding: 80px; */
+  text-align: center;
+  background-color: #1abc9c;
+  color: white;
+  font-family: times;
+  padding-top: 60px;
+}
+
+.title {
+  font-size: 60px;
+  text-align: center;
+  padding: 25px;
+  font-family: times;
+}
+
+.subtitle {
+  font-size: 18px;
+  text-align: inherit;
+  font-family: times;
+}
+
+h3 {
+  font-family: times;
+  font-size: 20px;
+}
+.navbar {
+  overflow: hidden;
+  background-color: #333;
+  width: 100%;
+  display: block;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+a {
+  color: white;
+  float: left;
+  display: block;
+  text-align: center;
+  text-decoration: none;
+  font-size: 18px;
+  padding: 0 15px;
+}
+
+a.contact_right {
+  float: right!important;
+}
+
+.navbar a:hover {
+  background-color: white;
+  color: #1abc9c;
+  text-decoration: none;
+}
+
+.fiona {
+  height: 200px;
+  display: block;
+  /* margin-left: auto;
+  margin-right: auto; */
+}
+
+.mb-link {
+  color: blue;
+  font-size: 16px;
+}
+
+.main_text {
+  /* flex: 70%; */
+  background-color: white;
+  font-size: 18px;
+}
+
+.body_images {
+  height: 500px;
+  width: 100%;
+}
+
+.col-md-8 {
+    /* border: 5px solid; */
+    padding: 30px;
+}
+
+.col-md-4 {
+    /* border: 5px solid; */
+    padding: 30px;
+    border-right: 2px solid;
+    margin-bottom: 20px;
+    border-right-color: #1abc9c;
+    /* background-color: #fbf050; */
+}
+
+.footer {
+    padding: 20px;
+    text-align: center;
+    background: #1abc9c;
+    color: white;
+    font-family: times;
+}
+
+form {
+  display: block;
+  align: center;
+  padding: 100px;
+}
